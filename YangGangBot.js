@@ -44,9 +44,7 @@ async function sendRequest(videoID) {
 
 // video infector
 
-// async which allows multiple comments to different videos at once
-
-async function videoInfector(videoID) {
+function videoInfector(videoID) {
 
     // posts comment on that video using youtube api
 
